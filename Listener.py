@@ -62,5 +62,5 @@ class Listener:
     
 
 
-my_listener = Listener("192.168.56.1", 4444)
+my_listener = Listener(ip, port)
 my_listener.run()
